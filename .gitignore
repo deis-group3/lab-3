@@ -1,0 +1,101 @@
+# Compiled C/C++ files
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+
+# Build directories
+build/
+dist/
+*.egg-info/
+
+# LCM generated files
+lcm_generated/
+*.lcm.py
+*_t.py
+*_t.c
+*_t.h
+
+# Compiled executables
+lcm_monitor
+lcm_spy
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+/tmp/
+logs/
+
+# LCM log files
+*.lcm
+lcm_log*
+
+# Camera and video files (if saving recordings)
+*.avi
+*.mp4
+*.mov
+*.jpg
+*.png
+*.jpeg
+
+# System files
+.Trash/
+.fseventsd/
+.Spotlight-V100/
+.TemporaryItems/
+
+# Package files
+*.tar.gz
+*.zip
+*.rar
+
+# Development and testing
+test_output/
+coverage/
+.coverage
+.pytest_cache/
+.tox/
+
+# Documentation build
+docs/_build/
+*.pdf
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Lock files (keep pyproject.toml but ignore lock for flexibility)
+# uv.lock  # Uncomment if you want to ignore the lock file
+
+# Local configuration files
+local_config.py
+config_local.py
+.env.local
